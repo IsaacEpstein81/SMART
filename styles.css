@@ -553,6 +553,31 @@ h4 {
   border: 0;
 }
 
+.media-card__frame--image {
+  aspect-ratio: auto;
+  padding: 0.9rem;
+}
+
+.media-card__frame--image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 1rem;
+  border: 1px solid rgba(45, 110, 121, 0.08);
+  box-shadow: 0 14px 34px rgba(31, 92, 95, 0.08);
+}
+
+.media-card__frame--contain {
+  display: grid;
+  place-items: center;
+}
+
+.media-card__frame--contain img {
+  width: min(72%, 19rem);
+  border: 0;
+  box-shadow: none;
+}
+
 .media-card__meta {
   display: flex;
   align-items: center;
